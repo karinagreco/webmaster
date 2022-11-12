@@ -1,0 +1,57 @@
+h1{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+}
+
+h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h6{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#perfil{
+    width: 500px;
+    height: 180px;
+    border: 5px solid rgb(179, 177, 177);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+
+#marcofoto{
+    background-color: rgb(179, 177, 177);
+    width: 500px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.destacado{
+    font-style: italic;
+}
+
+.destacado1{
+    color: blueviolet;
+    font-style: italic;
+}
+
+h5{
+    text-align: right;
+}
