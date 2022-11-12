@@ -1,0 +1,53 @@
+h1{
+    background-color: yellow;
+    text-align: center;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+p{
+    color: blue;
+}
+
+.destacados{
+    color: orangered;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+#verde{
+    background-color: yellowgreen;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+#verde p {
+    color: white;
+}
+
+#rojo{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    border-right: 5px dashed blue;
+    box-sizing: border-box;
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+    background-color: yellow;
+}
