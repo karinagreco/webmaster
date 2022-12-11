@@ -1,0 +1,83 @@
+/* 
+font-family: 'Caveat', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+h3 {
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: gray; */
+    font-family: 'Quicksand', sans-serif;
+    color: gray;
+}
+
+h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h5 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h6 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#perfil {
+    width: 500px;
+    height: 180px;
+    border: 5px solid rgb(179, 177, 177);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: 0px 0px 14px 15px rgba(69, 69, 186, 0.28);
+}
+
+#marcofoto {
+    background-color: rgb(179, 177, 177);
+    width: 500px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 14px 15px rgba(69, 69, 186, 0.28);
+    border-radius: 10px;
+}
+
+.destacado {
+    font-style: italic;
+}
+
+.destacado1 {
+    color: blueviolet;
+    font-style: italic;
+}
+
+h5 {
+    text-align: right;
+}
+
+.premios {
+    width: 500px;
+    height: 150px;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+    text-shadow: 8px 4px 2px rgba(246,6,6,0.6);
+    border: 14px outset #ff5e50;
+    border-radius: 10px;
+}
