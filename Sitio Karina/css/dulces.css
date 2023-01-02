@@ -1,0 +1,133 @@
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Mukta', sans-serif; */
+
+body {
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header {
+    padding: 10px 0;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+header h1 {
+    color: rgb(143, 78, 143);
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    margin-left: 20px;
+}
+
+header ul{
+    list-style: none;
+    margin: 0;
+    text-align: left;
+    display: flex;
+}
+
+header ul li{
+    flex-grow: 1;
+} 
+
+header ul li a{
+    color: rgb(79, 43, 79);
+    text-decoration: none;
+}
+
+nav {
+    background-color: rgb(143, 78, 143);
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(143, 78, 143);
+    text-align: right;
+    padding: 5px 0;
+    margin-top: 5px; 
+}
+
+.holder{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+
+/* inicio home*/
+
+.columnas{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.pasteleria img {
+    border-radius: 10px;
+    max-width: 530px;
+}
+
+.columnas2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pasteleria2 img {
+    border-radius: 10px;
+    max-width: 345px;
+}
+
+/* fin home*/
+
+/* inicio productos*/
+
+.productos h4,h3{
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+}
+
+.columnasprod1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pasteleriaprod img {
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+.columnasprod2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pasteleriaprod2 img {
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+
+
+/* fin productos*/
