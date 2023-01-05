@@ -128,6 +128,77 @@ footer{
     max-width: 300px;
 }
 
-
-
 /* fin productos*/
+
+/*inicio contacto*/
+
+.contacto {
+    display: flex;
+    gap: 24px;
+}
+
+.contacto div {
+    width: 100%;
+}
+
+.datos p {
+    font-size: 18px;
+}
+
+.datos ul li {
+    font-size: 16px;
+}
+
+.formulario p {
+    display: flex;
+}
+
+.formulario p label {
+    min-width: 80px;
+}
+
+.formulario p input,
+.formulario p textarea {
+    width: 100%;
+}
+
+.formulario p input,
+.formulario p textarea {
+    background-color: white;
+    border-bottom: 5px;
+    border: 2px solid rgb(143, 78, 143);
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+.formulario p label {
+    display: flex;
+    align-items: center;
+}
+
+.formulario p:nth-child(4) {
+    align-items: start;
+}
+
+.formulario textarea {
+    resize: none;
+    height: 150px;
+}
+
+.formulario input[type="submit"] {
+    background: rgb(143, 78, 143);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 27.5rem;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: rgb(71, 2, 71);
+}
+
+/*fin contacto*/
