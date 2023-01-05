@@ -50,79 +50,82 @@ nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-footer{
+footer {
     background-color: #ccc;
     clear: both;
     color: #333;
     text-align: center;
     padding: 5px 0;
-    margin-top: 20px;    
+    margin-top: 20px;
 }
 
-nav ul li a.activo{
+nav ul li a.activo {
     background-color: #4c76a5;
 }
 
-.holder{
+.holder {
     max-width: 960px;
     margin: 0 auto;
 }
 
-h2{
+h2 {
     color: #2e64a1;
     font-weight: 400;
 }
 
 /* inicio home*/
-.columnas{
+.columnas {
     display: flex;
     justify-content: space-between;
 }
 
-.bienvenidos{
+.bienvenidos {
     width: 75%;
     padding-right: 10px;
     box-sizing: border-box;
 }
-.testimonios{
+
+.testimonios {
     width: 25%;
 }
 
-.bienvenidos p{
+.bienvenidos p {
     font-size: 20px;
 }
 
-.testimonio{
+.testimonio {
     background-color: #ccc;
     padding: 16px;
 }
- .testimonio .cita{
+
+.testimonio .cita {
     font-weight: bold;
     font-style: italic;
     font-size: 22px;
     display: block;
- }
+}
 
- .testimonio .autor{
+.testimonio .autor {
     font-size: 10px;
     text-align: center;
     display: block;
     margin: 12px 0;
- }
+}
+
 /*fin home*/
 
 /*inicio nosotros*/
 
-.historia p{
+.historia p {
     font-size: 12px;
 }
 
-.personas{
+.personas {
     display: flex;
     justify-content: space-between;
 }
 
-.persona{
+.persona {
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 18%;
@@ -131,31 +134,33 @@ h2{
     box-sizing: border-box;
 }
 
-.persona img{
+.persona img {
     border-radius: 50%;
     max-width: 60%;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
-.persona h5, .persona h6 {
+.persona h5,
+.persona h6 {
     margin: 0;
     font-weight: normal;
     color: #2e64a1;
 }
 
-.persona h5{
+.persona h5 {
     font-size: 14px;
     margin-top: 5px;
 }
 
-.persona h6{
+.persona h6 {
     font-size: 11px;
     font-style: italic;
 }
+
 /*fin nosotros*/
 
 /*inicio servicios*/
-.servicio{
+.servicio {
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 16px;
@@ -188,3 +193,79 @@ h2{
 }
 
 /*fin servicios*/
+
+/*inicio galeria*/
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.galeria img {
+    width: 18%;
+    border: 1px solid #ddd;
+    padding: 0.3em;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 2%;
+}
+
+/*fin galeria*/
+
+/*inicio contacto*/
+
+.contacto {
+    display: flex;
+    gap: 24px;
+}
+
+.contacto div {
+    width: 100%;
+}
+
+.datos p {
+    font-size: 14px;
+}
+
+.datos ul li {
+    font-size: 13px;
+}
+
+.formulario p {
+    display: flex;
+}
+
+.formulario p label {
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.formulario p:nth-child(4) {
+    align-items: start;
+}
+
+.formulario textarea {
+    resize: none;
+    height: 150px;
+}
+
+.formulario input [type="submit"] {
+    background: #6da9ed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+}
+
+.formulario input [type="submit"]:hover {
+    background-color: #2e64a1;
+}
+
+
+/*fin contacto*/
