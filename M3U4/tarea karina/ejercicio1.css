@@ -1,0 +1,25 @@
+.contenedor {
+	margin: 0 auto;
+    display: flex;
+	align-items: center;
+      
+}
+
+.rojo{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.verde{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.azul{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
